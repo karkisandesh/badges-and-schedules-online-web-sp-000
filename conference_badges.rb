@@ -21,7 +21,8 @@ def assign_rooms(speakers)
 end
 
 batch_badge_creator(['A', 'B'])
-printer()
+printer(['B', 'D'])
+
 def printer(names)
   batch_badge_creator(names).each do |print_badge|
     puts print_badge
